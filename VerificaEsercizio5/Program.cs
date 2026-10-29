@@ -3,7 +3,6 @@ Random rand = new Random();
 
 int randNum = rand.Next(0, 100);
 int numInput = 0;
-Console.WriteLine(randNum);
 Console.Write("Indovina il numero: ");
 numInput = Convert.ToInt32(Console.ReadLine());
 
